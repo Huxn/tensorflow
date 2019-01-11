@@ -20,3 +20,10 @@
 	a, #待处理的数据
 	axis = None
 ) #从数组的形状中删除单维度条目，即把shape中为1的维度去掉
+
+### numpy.random.choice(
+	a, #一维数组或整数
+	size=None, #生成样本的大小
+	replace=True, #False表示样本中不允许有重复值 True......
+	p=None #给定数组中元素出现的概率
+)
