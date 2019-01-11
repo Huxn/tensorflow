@@ -1,4 +1,4 @@
-#numpy常见函数
+# numpy常见函数
 
 ### np.linspace(
 	start, #队列的起始值
@@ -15,3 +15,8 @@
 	scale=1.0, #此概率分布的标准差（对应于分布的宽度，scale越大越矮胖，scale越小，越瘦高）
 	size=None #输出的shape，默认为None，只输出一个值
 )
+
+### np.squeeze(
+	a, #待处理的数据
+	axis = None
+) #从数组的形状中删除单维度条目，即把shape中为1的维度去掉
